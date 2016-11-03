@@ -1,5 +1,5 @@
 // Create a raster item:
-var raster = new Raster('dorset.jpg');
+var raster = new Raster('rosa.jpg');
 var loaded = false;
 
 raster.on('load', function() {
