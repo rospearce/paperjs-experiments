@@ -19,7 +19,7 @@ function moveHandler(event) {
 	lastPos = event.point;
 
 	var size = this.bounds.size.clone();
-	var isLandscape = size.width > size.height;
+	var isPortrait = size.height > size.width;
 
 	// If the path is in landscape orientation, we're going to
 	// split the path horizontally, otherwise vertically:
