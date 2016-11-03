@@ -24,7 +24,7 @@ function moveHandler(event) {
 	// If the path is in landscape orientation, we're going to
 	// split the path horizontally, otherwise vertically:
 
-	size /= isLandscape ? [2, 1] : [1, 2];
+	size /= isPortrait ? [1, 2] : [2, 1];
 
 	var path = new Path.Rectangle({
 		point: this.bounds.topLeft.floor(),
